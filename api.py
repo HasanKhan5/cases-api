@@ -4,7 +4,7 @@ import json
 app = FastAPI()
 
 API_KEY = "123456789"   # give this to Salesforce developer
-FILE_NAME = "data.json"
+FILE_NAME = "case_details.json"
 
 
 @app.get("/cases")
